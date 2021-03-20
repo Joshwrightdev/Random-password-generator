@@ -78,24 +78,31 @@ function generatePassword() {
       "Choose a Password length between 8-128 Characters:"
     );
   }
-  alert("Your password will have " + confirmPasswordLength + " numbers" );
+  alert("Your password will have " + confirmPasswordLength + " numbers");
 
   var confirmNumChars = confirm("Would you like Numbers in your password?");
-   alert("it is " + confirmNumChars + " that you will have numbers in your password")
+  alert("IT IS " + confirmNumChars + " THAT YOU WILL HAVE NUMBERS INCLUDED");
   var confirmSpecialChars = confirm(
     "Would you like Special Characters in your password?"
   );
-  alert("it is " + confirmSpecialChars + " that you will have special Characters in your password" );
+  alert(
+    "IT IS  " + confirmSpecialChars + " THAT YOU WILL HAVE SPECIAL CHARACTERS"
+  );
   var confirmUpperChars = confirm(
     "Would you like Upper Case Letters in your password?"
   );
   alert(
-    "it is " + confirmUpperChars + " that you will have numbers in your password" );
+    "IT IS " +
+      confirmUpperChars +
+      " THAT YOU WILL HAVE UPPERCASE CHARACTERS INCLUDED"
+  );
   var confirmLowerChars = confirm(
     "Would you like Lower Case Letters in your password?"
   );
-   alert(
-  "it is " + confirmLowerChars + " that you will have numbers in your password"
+  alert(
+    "IT IS " +
+      confirmLowerChars +
+      " THAT YOU WILL HAVE LOWERCASE CHARACTERS INCLUDED"
   );
   while (
     confirmNumChars === false &&
@@ -107,15 +114,28 @@ function generatePassword() {
       "Password must have at least one Choice. Please select at least one Character Choice from the prompts!"
     );
     var confirmNumChars = confirm("Would you like Numbers in your password?");
-
+    alert("IT IS " + confirmNumChars + " THAT YOU WILL HAVE NUMBERS INCLUDED");
     var confirmSpecialChars = confirm(
       "Would you like Special Characters in your password?"
+    );
+    alert(
+      "IT IS " + confirmSpecialChars + " THAT YOU WILL HAVE SPECIAL CHARACTERS"
     );
     var confirmUpperChars = confirm(
       "Would you like Upper Case Letters in your password?"
     );
+    alert(
+      "IT IS " +
+        confirmUpperChars +
+        " THAT YOU WILL HAVE UPPERCASE CHARACTERS INCLUDED"
+    );
     var confirmLowerChars = confirm(
       "Would you like Lower Case Letters in your password?"
+    );
+    alert(
+      "IT IS " +
+        confirmLowerChars +
+        " THAT YOU WILL HAVE LOWERCASE CHARACTERS INCLUDED"
     );
   }
 
